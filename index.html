@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Mooli&family=Oswald&family=Poppins:wght@200&family=Raleway&family=Shadows+Into+Light&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Online Profile</title>
+  </head>
+  <body>
+    <header>
+      <h1>Seth Rowan</h1>
+      <p>Anticipated Graduation: Spring 2025</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="Container">
+        <section id="about">
+          <h1>About Me</h1>
+          <p>
+            I am currently a second-year college student, passionately pursuing
+            a degree in computer science with a focus on programming and website
+            design. My skill set encompasses proficiency in various programming
+            languages, including C#, Python, HTML, and CSS. Over the past five
+            years, I have cultivated valuable expertise in electronics repair
+            and troubleshooting while working with Best Buy and Geek Squad. This
+            hands-on experience has not only sharpened my problem-solving
+            abilities but has also provided a solid foundation for my technical
+            skills. In the realm of programming, I specialize in C#, a versatile
+            language known for its application in developing Windows
+            applications and web services. Additionally, my proficiency in
+            Python extends to its diverse applications, from web development to
+            data analysis. Moreover, I am adept at creating dynamic and
+            responsive web interfaces using HTML and CSS. My journey as a
+            computer science student and my professional background in
+            electronics have equipped me with a unique blend of skills, making
+            me well-prepared to tackle challenges in both programming and
+            technology-related fields."
+          </p>
+        </section>
+
+        <section id="projects">
+          <h1>Projects</h1>
+
+          <div class="project">
+            <h3>Neosho Skateland</h3>
+            <p>
+              For this project, I conceptualized, designed, and constructed the
+              primary website for Neosho Skateland Fun Center. Employing the
+              Bootstrap 5 framework, I ensured a responsive and visually
+              appealing design. It's worth noting that this project was
+              specifically crafted for educational purposes, allowing for a
+              hands-on exploration and application of web development skills.
+            </p>
+          </div>
+
+          <div class="project">
+            <h3>Giant National Bank</h3>
+            <p>
+              Giant National Bank serves as a fictitious entity employed in our
+              coursework to simulate real-world applications. In this project, I
+              leveraged C# to construct and design the client side of the bank's
+              web application. The implementation involved integrating a robust
+              C# backend, a SQL database for seamless data management, and
+              crafting a client that interfaces with the provided API. This
+              project not only honed my programming skills but also provided
+              practical experience in developing sophisticated web applications
+              within a simulated banking environment.
+            </p>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h1>Contact Me</h1>
+          <form action="thankyou.html" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <input type="submit" value="Submit" />
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Seth Rowan. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
